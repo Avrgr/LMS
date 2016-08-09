@@ -27,15 +27,12 @@
 	}
 
 ?>
-<html>
-<head>
-	<title>League Management System</title>
-</head>
-<body>
-	<form action="index.php" method="post">
-		<label>Username<input type="text" id="username" name="username" autofocus /></label><br/>
-		<label>Password<input type="password" id="password" name="password" /></label><br/>
-		<button type="submit">Submit</button>
-	</form>
+<?php include 'header.php' ?>
+		<form action="index.php" method="post" class="form-group">
+			<label>Username<input type="text" class="form-control" id="username" name="username" autofocus /></label><br/>
+			<label>Password<input type="password" class="form-control" id="password" name="password" /></label><br/>
+			<button type="submit">Submit</button>
+		</form>
+	</div>
 </body>
 </html>
